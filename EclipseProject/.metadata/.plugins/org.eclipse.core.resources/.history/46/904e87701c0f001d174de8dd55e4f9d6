@@ -1,0 +1,14 @@
+package s1;
+import java.util.Scanner;
+public class DemoString1 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the String");
+		String s1=s.nextLine();
+		System.out.println("String : "+s1);
+		System.out.println("Count : "+s1.length());
+		s.close();
+	}
+
+}
